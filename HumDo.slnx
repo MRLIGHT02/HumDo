@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="HumDo.Analytics/HumDo.Analytics.csproj" />
+  <Project Path="HumDo.Api/HumDo.Api.csproj" />
+  <Project Path="HumDo.Application/HumDo.Application.csproj" />
+  <Project Path="HumDo.Domain/HumDo.Domain.csproj" />
+  <Project Path="HumDo.Identity/HumDo.Identity.csproj" />
+  <Project Path="HumDo.Infrastructure/HumDo.Infrastructure.csproj" />
+  <Project Path="HumDo.MatchingService/HumDo.MatchingService.csproj" />
+  <Project Path="HumDo.MessagingService/HumDo.MessagingService.csproj" />
+  <Project Path="HumDo.Shared/HumDo.Shared.csproj" />
+</Solution>
