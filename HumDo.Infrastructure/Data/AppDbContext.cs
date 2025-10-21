@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using HumDo.Infrastructure.Entities;
+using HumDo.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace HumDo.Infrastructure.Data;
