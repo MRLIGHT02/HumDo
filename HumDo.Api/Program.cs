@@ -1,6 +1,8 @@
-using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.EntityFrameworkCore;
+using HumDo.Application.Contracts;
 using HumDo.Infrastructure.Data;
+using HumDo.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+// Adding Services 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 // Adding the DbContext
 builder.Services.AddDbContext<AppDbContext>(context=>
